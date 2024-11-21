@@ -1,5 +1,5 @@
 clear 
 #Build File 
-#!/bin/sh
-set - xe 
+#!/bin/bash
+set -xe
 gcc -o Setup main.c -Wall -Wextra -lm 
