@@ -5,6 +5,8 @@
 int main(void){
 	int F = 0;
 	int Celsuis =Cels(F);
+	// Print the heading for the table
+	printf("Fahrenheit to Celsius Conversion Table\n");
 	printf("Fahr : %6.2d   Celsuis : %6.2d\n", F , Celsuis);
    printf("---------------------------------------------------------------\n");
    while(F <= 300){
