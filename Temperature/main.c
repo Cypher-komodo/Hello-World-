@@ -15,5 +15,14 @@ int main(void){
    	F +=20;
    }
    printf("---------------------------------------------------------------\n");
+   printf("Write a program to print the corresponding Celsius to Fahrenheit table. \n");
+    printf("---------------------------------------------------------------\n");
+   while(F <= 100){
+   	Celsuis = Cels(F);
+    printf("|   Fahr : %3d       |      Celsuis : %3d     |\n", F , Celsuis);
+   	F +=10;
+   }
+   printf("---------------------------------------------------------------\n");	
+
 	return 0;
 }
