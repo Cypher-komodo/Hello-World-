@@ -4,11 +4,14 @@
 //the formula oC=(5/9)(oF-32) 
 int main(void){
 	int F = 0;
-	int Celsuis =0;
+	int Celsuis =Cels(F);
+	printf("Fahr : %6.2d   Celsuis : %6.2d\n", F , Celsuis);
+   printf("---------------------------------------------------------------\n");
    while(F <= 300){
    	Celsuis = Cels(F);
-    printf("Fahr : %6.2d   Celsuis : %6.2d\n", F , Celsuis);
+    printf("|   Fahr : %3d       |      Celsuis : %3d     |\n", F , Celsuis);
    	F +=20;
    }
+   printf("---------------------------------------------------------------\n");
 	return 0;
 }
