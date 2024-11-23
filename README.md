@@ -1,5 +1,5 @@
 # Learning C programming .Here are some steps to get you started
-' ' ' ' ' '
+
             Understand the Basics:  Start with the basic syntax and structure of C. Learn about data types, variables, operators, and control flow (if-else, loops).
 
             Install a Compiler:  You'll need a C compiler to write and execute your code. Popular ones include GCC (GNU Compiler Collection) and Microsoft Visual Studio.
