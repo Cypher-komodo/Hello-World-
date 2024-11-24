@@ -3,11 +3,11 @@
 #define Cels(F)  5*((F) - 32)/9
 //the formula oC=(5/9)(oF-32) 
 int main(void){
-	int F = 0;
+	int F , F_ , FT;
+	F =0;
 	int Celsuis =Cels(F);
 	// Print the heading for the table
 	printf("Fahrenheit to Celsius Conversion Table\n");
-	printf("Fahr : %6.2d   Celsuis : %6.2d\n", F , Celsuis);
    printf("---------------------------------------------------------------\n");
    while(F <= 300){
    	Celsuis = Cels(F);
@@ -17,12 +17,22 @@ int main(void){
    printf("---------------------------------------------------------------\n");
    printf("Write a program to print the corresponding Celsius to Fahrenheit table. \n");
     printf("---------------------------------------------------------------\n");
-   while(F <= 100){
-   	Celsuis = Cels(F);
-    printf("|   Fahr : %3d       |      Celsuis : %3d     |\n", F , Celsuis);
-   	F +=10;
+    F_ = 0;
+   while(F_ <= 100){
+   	Celsuis = Cels(F_);
+    printf("|   Fahr : %3d       |      Celsuis : %3d     |\n", F_ , Celsuis);
+   	F_ +=10;
    }
    printf("---------------------------------------------------------------\n");	
-
+//the temperature conversion 
+printf(" the temperature conversion  \n");
+printf("---------------------------------------------------------------\n");
+FT =300;
+   while(FT >= 0){
+   	Celsuis = Cels(FT);
+    printf("|   Fahr : %3d       |      Celsuis : %3d     |\n", FT , Celsuis);
+   	FT -=20;
+   }
+   printf("---------------------------------------------------------------\n");
 	return 0;
 }
