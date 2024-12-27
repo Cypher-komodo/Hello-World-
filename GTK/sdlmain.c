@@ -1,7 +1,7 @@
 // #include <SDL/include/SDL3/SDL.h>
-// #include <SDL3/SDL.h>
+#include <SDL2/SDL.h>
 // #include <SDL3/SDL_stdinc.h> 
-/*
+
 int main(int argc, char* argv[]) {
     SDL_Window* window = NULL;
 
@@ -21,7 +21,8 @@ int main(int argc, char* argv[]) {
     SDL_Quit();
 
     return 0;
-}*/
+}
+/*
 #include <SDL2/SDL.h>
 #include <stdio.h>
 
@@ -47,4 +48,4 @@ int main() {
     SDL_Quit();
     
     return 0;
-}
+}*/
